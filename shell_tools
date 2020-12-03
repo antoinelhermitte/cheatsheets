@@ -71,6 +71,35 @@ Close current pane
 <kbd>Ctrl</kbd>+<kbd>b</kbd>,<kbd>x</kbd>  
 
 # git
+## Basics
+Initialize the current directory as git repository  
+`git init`
+
+Stage changes of a file or directory  
+`git add <directory>`  
+
+Commit changes with message  
+`git commit -m <commit message>`  
+
+List files staged, unstaged and untracked  
+`git status`  
+
+Display entire commit history in a nice way  
+`git log --all --graph --decorate`  
+
+## Branches
+List all branches in current repo
+`git branch`  
+
+Create new branch named *branch_name* and checkout on it  
+`git checkout -b <branch_name>`  
+
+
+## Undoing stuff
+
+## Remote repositories
+
 # docker
 # weechat
-
+Switch between weechat core buffer and server buffer  
+<kbd>Ctrl</kbd>+<kbd>x</kbd>  
