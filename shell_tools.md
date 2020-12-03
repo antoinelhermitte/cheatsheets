@@ -1,7 +1,7 @@
 The purpose of this document is serve as a repository of the Unix shell commands and key bindings that either are the most useful or that I use the most.
 
-# tmux
-## Sessions
+## tmux
+### Sessions
 Start new session named *name*  
 `tmux new -s name`  
 
@@ -27,7 +27,7 @@ Kill session named *name*
 Kill all sessions except the current  
 `tmux kill-ses -a`
 
-## Windows
+### Windows
 
 Create new window  
 <kbd>Ctrl</kbd>+<kbd>b</kbd>,<kbd>c</kbd>  
@@ -47,7 +47,7 @@ Select window by number
 Close window  
 <kbd>Ctrl</kbd>+<kbd>b</kbd>,<kbd>&</kbd>  
 
-## Panes
+### Panes
 
 Split pane vertically  
 <kbd>Ctrl</kbd>+<kbd>b</kbd>,<kbd>%</kbd>  
@@ -70,8 +70,8 @@ Convert pane into a new window
 Close current pane  
 <kbd>Ctrl</kbd>+<kbd>b</kbd>,<kbd>x</kbd>  
 
-# git
-## Basics
+## git
+### Basics
 Initialize the current directory as git repository  
 `git init`
 
@@ -87,7 +87,7 @@ List files staged, unstaged and untracked
 Display entire commit history in a nice way  
 `git log --all --graph --decorate`  
 
-## Branches
+### Branches
 List all branches in current repo
 `git branch`  
 
@@ -95,11 +95,11 @@ Create new branch named *branch_name* and checkout on it
 `git checkout -b <branch_name>`  
 
 
-## Undoing stuff
+### Undoing stuff
 
-## Remote repositories
+### Remote repositories
 
-# docker
-# weechat
+## docker
+## weechat
 Switch between weechat core buffer and server buffer  
 <kbd>Ctrl</kbd>+<kbd>x</kbd>  
